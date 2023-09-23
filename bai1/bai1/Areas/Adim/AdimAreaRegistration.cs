@@ -17,7 +17,7 @@ namespace bai1.Areas.Adim
             context.MapRoute(
                 "Adim_default",
                 "Adim/{controller}/{action}/{id}",
-                new {Controller-"Dashboard" action = "Index", id = UrlParameter.Optional }
+                new {Controllers="Dashboard", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
